@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+#使用缩进
+user:
+  name: 姜家伟
+  sex: 女
+  age: 20
+  friends:
+      - 小张
+      - 小王
+      - 小李
+
+#流式(flow)语法
+#user: {name: 姜家伟, sex: 男, age: 19}
+
+jasypt:
+  encryptor:
+    password: 1234567!@#
+
+info:
+  username: ENC(VuGJeuivPnkJs35LswyyJw==)
+  password: ENC(Iy66r8rXutq0AZ+HN5BbHg==)
