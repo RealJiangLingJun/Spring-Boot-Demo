@@ -21,3 +21,26 @@ jasypt:
 info:
   username: ENC(VuGJeuivPnkJs35LswyyJw==)
   password: ENC(Iy66r8rXutq0AZ+HN5BbHg==)
+
+
+# 以--- 开头表示不同的文档，不同的文档又不同的配置
+#spring:
+#  profiles:
+#    active: prod
+#
+#---
+##开发环境
+#spring:
+#  profiles: dev
+#
+#server:
+#  port: 8080
+#
+#---
+##生产环境
+#spring:
+#  profiles: prod
+#
+#server:
+#  port: 8090
+

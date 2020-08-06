@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--<p th:text="${name}" >name</p>-->
+<!--&lt;!&ndash;text 不会解析标签，直接就展示&ndash;&gt;-->
+<!--<p th:utext="${uname}" >uname</p>-->
+<!--&lt;!&ndash;utext 会解析标签，解析之后继续展示&ndash;&gt;-->
+
+<!--变量表达式-->
+<p>变量表达式</p>
+<p th:text="${user.name}">name</p>
+<p th:text="${user.sex}">sex</p>
+<p th:text="${user.age}">age</p>
+
+<hr>
+
+<!--选择变量表达式-->
+<p>选择变量表达式</p>
+<div th:object="${user}">
+    <p th:text="*{name}">name</p>
+    <p th:text="*{sex}">sex</p>
+    <p th:text="*{age}">age</p>
+</div>
+
+<hr>
+
+<!--变量表达式+选择变量表达式-->
+<p>变量表达式+选择变量表达式</p>
+<div th:object="${user}">
+    <p th:text="*{name}">name</p>
+    <p th:text="*{sex}">sex</p>
+    <p th:text="${user.age}">age</p>
+</div>
+
+<hr>
+
+<!--链接url表达式-->
+<p>链接url表达式</p>
+<a href="/welcome" th:href="@{/welcome}">welcome</a>
+
+<hr>
+
+<!--消息表达式-->
+<p>消息表达式</p>
+<p th:text="#{something}">message</p>
+
+<hr>
+
+<!--片段表达式-->
+<p>片段表达式</p>
+<div th:insert="footer :: copy"></div>
+<br>
+<div th:replace="footer :: copy"></div>
+<br>
+<div th:include="footer :: copy"></div>
+
+<!--<div><footer> &copy; 2019</footer></div>-->
+<!--<br>-->
+<!--<footer> &copy; 2019</footer>-->
+<!--<br>-->
+<!--<div> &copy; 2019</div>-->
+
+</body>
+</html>
