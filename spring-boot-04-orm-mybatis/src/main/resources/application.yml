@@ -4,10 +4,15 @@ server:
 #配置数据源
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3307/testSpringBoot?useSSL=false&serverTimezone=CST
-    username: root
-    password: root
-
+    #多数据源配置
+    db1:
+      jdbc-url: jdbc:mysql://localhost:3307/testSpringBoot?useSSL=false&serverTimezone=CST
+      username: root
+      password: root
+    db2:
+      jdbc-url: jdbc:mysql://localhost:3307/javacrawler?useSSL=false&serverTimezone=CST
+      username: root
+      password: root
 
   #mybatis:
   # 声明mybatisxml文件地址
