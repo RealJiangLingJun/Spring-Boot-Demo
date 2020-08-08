@@ -1,10 +1,13 @@
 package com.jiangjiawei.controller;
 
+import com.jiangjiawei.domain.Guest;
 import com.jiangjiawei.service.imple.GuestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -25,5 +28,22 @@ public class GuestController {
         System.out.println(guestService.list());
         return "list";
     }
+
+    @GetMapping("/toAdd")
+    public String toAdd(){
+        return "add";
+    }
+
+    @Transactional
+    @PostMapping("")
+    public String add(Guest guest){
+        guest.setId(null);
+        System.out.println(guest.toString());
+        guestService.save(guest);
+//        int a = 1/0; //测试事务
+        return "redirect:/guest";
+    }
+
+
 
 }
