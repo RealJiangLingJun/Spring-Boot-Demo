@@ -1,0 +1,19 @@
+1.首先我们通过继承ApplicationEvent类，自定义了一个自定义事件
+
+2.通过四种方法自定义了四个事件监听器，并启动监听
+    （1）实现ApplicationListener<自定义事件>接口，重写了onApplicationEvent(Event event)方法
+    然后在springboot程序主入口处，通过获取启动后的容器context，通过addApplicationListener(Listener listener)方法引入自定义监听器启动监听
+    （2）实现spring提供的ApplicationListener<自定义事件>接口,重写了onApplicationEvent(Event event)方法，
+    但是不从主程序入口加载监听，直接使用@Component注解，注解这是需要加载的监听器，然后启动监听。
+    （3）不需要实现ApplicationListener接口，直接使用注解，使用类上使用@Component注解，表示当前类是Component组件bean，需要被加载
+    使用方法上使用@EventListener，注解这是一个监听组件，监听的事件是方法的参数,标注这是监听器bean
+    （4）实现spring提供的ApplicationListener接口，和第一种方式相似，但并不是通过获取启动后的容器来加载的，而是通过配置的方法是来加载
+    在配置文件中书写context: listener: classes: 自定义监听器的类路径
+
+3.通过上述的四种方法都可以实现自定义监听器，以及对事件的监听。但是这四种配置方法并不是一同执行的，就是说他们的加载有先后顺序。 4 》 3 》 2 》 1
+
+4.具体的执行细节：
+    首先失去读取配置，要是配置理由配置那么就直接加载进来
+    其次扫描类上的@EventListener注解，加载进来
+    再然后扫描@Component注解以及是否有ApplicationListener的实现类，加载进来
+    最后容器启动后获取到启动后的容器，对容器添加监听器
