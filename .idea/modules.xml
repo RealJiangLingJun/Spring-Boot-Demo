@@ -7,6 +7,20 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-02-configuration/spring-boot-02-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-02-configuration/spring-boot-02-configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-03-template/spring-boot-03-template.iml" filepath="$PROJECT_DIR$/spring-boot-03-template/spring-boot-03-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-03-thymeleef-crud/spring-boot-03-thymeleef-crud.iml" filepath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/spring-boot-03-thymeleef-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-03-web-restful-/spring-boot-03-web-restful-.iml" filepath="$PROJECT_DIR$/spring-boot-03-web-restful-/spring-boot-03-web-restful-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-04-orm-jpa/spring-boot-04-orm-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-04-orm-jpa/spring-boot-04-orm-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-04-orm-mybatis/spring-boot-04-orm-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/spring-boot-04-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/spring-boot-04-orm-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/spring-boot-04-orm-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-05-event-listener/spring-boot-05-event-listener.iml" filepath="$PROJECT_DIR$/spring-boot-05-event-listener/spring-boot-05-event-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-05-war/spring-boot-05-war.iml" filepath="$PROJECT_DIR$/spring-boot-05-war/spring-boot-05-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-05-web-container/spring-boot-05-web-container.iml" filepath="$PROJECT_DIR$/spring-boot-05-web-container/spring-boot-05-web-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-06-error-exception/spring-boot-06-error-exception.iml" filepath="$PROJECT_DIR$/spring-boot-06-error-exception/spring-boot-06-error-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-06-logging/spring-boot-06-logging.iml" filepath="$PROJECT_DIR$/spring-boot-06-logging/spring-boot-06-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-06-servlet/spring-boot-06-servlet.iml" filepath="$PROJECT_DIR$/spring-boot-06-servlet/spring-boot-06-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-06-swagger/spring-boot-06-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-06-swagger/spring-boot-06-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-07-Groovy-CLI/spring-boot-07-Groovy-CLI.iml" filepath="$PROJECT_DIR$/spring-boot-07-Groovy-CLI/spring-boot-07-Groovy-CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-08-actuator/spring-boot-08-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-08-actuator/spring-boot-08-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-09-cache/spring-boot-09-cache.iml" filepath="$PROJECT_DIR$/spring-boot-09-cache/spring-boot-09-cache.iml" />
     </modules>
   </component>
 </project>

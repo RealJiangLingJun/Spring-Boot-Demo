@@ -13,6 +13,8 @@ import javax.sql.DataSource;
 @Configuration
 public class DBConfig {
 
+//    @ConfigurationProperties 可以将配置文件中的值映射到类中
+
     @Bean(name = "db1")
     @ConfigurationProperties("spring.datasource.db1")
     public DataSource dataSource1(){

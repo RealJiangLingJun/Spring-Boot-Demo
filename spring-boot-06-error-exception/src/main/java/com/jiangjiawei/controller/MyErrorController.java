@@ -10,4 +10,9 @@ public class MyErrorController {
     public String error404(){
         return "error404";
     }
+
+    @RequestMapping("/throwsError")
+    public String error() throws NullPointerException{
+        throw new NullPointerException("空指针异常");
+    }
 }

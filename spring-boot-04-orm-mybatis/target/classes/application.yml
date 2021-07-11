@@ -1,0 +1,25 @@
+server:
+  port: 8090
+
+#配置数据源
+spring:
+  datasource:
+    #多数据源配置
+    db1:
+      jdbc-url: jdbc:mysql://localhost:3307/testSpringBoot?useSSL=false&serverTimezone=CST
+      username: root
+      password: root
+    db2:
+      jdbc-url: jdbc:mysql://localhost:3307/javacrawler?useSSL=false&serverTimezone=CST
+      username: root
+      password: root
+
+  #mybatis:
+  # 声明mybatisxml文件地址
+#  config-location: classpath:mybatis-config.xml
+
+  #在spring配置文件中声明 mapper*.xml 和 实体包，代替 mybatis-config.xml
+#  type-aliases-package: com.jiangjiawei.domain
+#  mapper-locations: classpath*:/mybatis/mappers/*.xml
+
+#去除了所有注解

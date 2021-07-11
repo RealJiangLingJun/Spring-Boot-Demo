@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.jiangjiawei.config.UserConfig",
+      "sourceType": "com.jiangjiawei.config.UserConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "com.jiangjiawei.config.VegetablesConfig",
+      "sourceType": "com.jiangjiawei.config.VegetablesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jiangjiawei.config.UserConfig"
+    },
+    {
+      "name": "user.friends",
+      "type": "java.lang.String[]",
+      "sourceType": "com.jiangjiawei.config.UserConfig"
+    },
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.jiangjiawei.config.UserConfig"
+    },
+    {
+      "name": "user.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.jiangjiawei.config.UserConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "com.jiangjiawei.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.greenpepper",
+      "type": "java.lang.String",
+      "sourceType": "com.jiangjiawei.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "com.jiangjiawei.config.VegetablesConfig"
+    }
+  ],
+  "hints": []
+}

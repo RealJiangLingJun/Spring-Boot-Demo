@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b479e65a-58fc-4d37-afc0-7bb913b6c67f" name="Default Changelist" comment="20200808,Mybatis进行多数据源整合。">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_05_war_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_boot_05_war_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/355bc465-00d7-40d5-b283-f9b3168ba17a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/355bc465-00d7-40d5-b283-f9b3168ba17a/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_39_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_8_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_2_0_26_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_2_0_26_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_2_0_26_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_1_1_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-01-helloworld/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-01-helloworld/target/classes/com/jiangjiawei/DemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-01-helloworld/target/classes/com/jiangjiawei/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/DemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/config/UserConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/config/VegetablesConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/controller/JsonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/domain/Vegetables.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/com/jiangjiawei/util/JasyptUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-02-configuration/target/classes/vegetables.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/src/main/resources/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/com/jiangjiawei/ThymeleefCrudApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/com/jiangjiawei/controller/GuestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/com/jiangjiawei/dao/GuestDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/com/jiangjiawei/domain/Guest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/com/jiangjiawei/service/GuestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/com/jiangjiawei/service/imple/GuestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/classes/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/target/test-classes/com/jiangjiawei/SpringBoot03ThymeleefCrudApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/com/jiangjiawei/WebRestful.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/com/jiangjiawei/controller/GuestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/com/jiangjiawei/dao/GuestDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/com/jiangjiawei/domain/Guest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/com/jiangjiawei/service/GuestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/com/jiangjiawei/service/imple/GuestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/static/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/classes/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful-/target/test-classes/com/jiangjiawei/SpringBoot03WebRestfulApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/META-INF/spring-boot-04-orm-mybatis-plus.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/OrmMybatisPlusApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/controller/GuestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/dao/GuestDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/domain/Guest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/mapper/GuestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/service/GuestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/com/jiangjiawei/service/imple/GuestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/classes/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis-plus/target/test-classes/com/jiangjiawei/SpringBoot04OrmMybatisPlusApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/com/jiangjiawei/config/DBConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/com/jiangjiawei/config/DBOneConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/com/jiangjiawei/config/DBTwoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/com/jiangjiawei/mapper2/GuestMapper2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/com/jiangjiawei/tk_mapper/TkGuestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/mybatis/mapper/GuestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/target/classes/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/META-INF/spring-boot-05-event-listener.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/EventListenerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/controller/EventController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/event/CustomEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/listener/CustomListener1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/listener/CustomListener2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/listener/CustomListener3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-event-listener/target/classes/com/jiangjiawei/listener/CustomListener4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/spring-boot-05-war.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/src/main/java/com/jiangjiawei/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/src/main/java/com/jiangjiawei/SpringBoot05WarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/classes/com/jiangjiawei/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/classes/com/jiangjiawei/SpringBoot05WarApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/classes/com/jiangjiawei/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/classes/com/jiangjiawei/SpringBoot05WarApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/spring-boot-05-war-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-war/target/test-classes/META-INF/spring-boot-05-war.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/META-INF/spring-boot-05-web-container.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/com/jiangjiawei/WebContainerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/com/jiangjiawei/config/ListenerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/com/jiangjiawei/config/WebConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-05-web-container/target/classes/com/jiangjiawei/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/src/main/java/com/jiangjiawei/handler/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/com/jiangjiawei/controller/MyErrorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/com/jiangjiawei/customizer/MyCustomizer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/com/jiangjiawei/customizer/MyCustomizer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/com/jiangjiawei/handler/MyExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/com/jiangjiawei/resolver/MyErrorViewResolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/public/error/404().html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/templates/error/4xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/templates/error404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/target/classes/templates/resolver404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/META-INF/spring-boot-06-servlet.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/ServletApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/config/FilterConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/config/InterceptorConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/controller/ServletController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/filter/CustomFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/filter/CustomFilter2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/classes/com/jiangjiawei/interceptor/CustomInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-06-servlet/target/test-classes/META-INF/spring-boot-06-servlet.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/spring-boot-09-cache.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/java/com/jiangjiawei/CacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/java/com/jiangjiawei/controller/GuestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/java/com/jiangjiawei/domain/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/java/com/jiangjiawei/mapper/GuestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/java/com/jiangjiawei/service/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/java/com/jiangjiawei/service/imple/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-09-cache/src/test/java/com/jiangjiawei/SpringBoot09CacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring-Boot-Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-Boot-Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-03-template/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-03-template/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-03-template/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-03-template/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-03-thymeleef-crud/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-04-orm-jpa/spring-boot-04-orm-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/spring-boot-04-orm-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/src/main/java/com/jiangjiawei/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-04-orm-mybatis/src/main/java/com/jiangjiawei/config/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-06-error-exception/src/main/java/com/jiangjiawei/controller/MyErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-06-error-exception/src/main/java/com/jiangjiawei/controller/MyErrorController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testspringBoot@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testspringBoot@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testspringBoot@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testspringboot: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testspringBoot@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="testspringboot: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="guest: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Spring-Boot-Demo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\ideaprojects\Spring-Boot-Demo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fejvpsDQKeKsa1KT7n81RfkKBI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.153125" />
+    <property name="project.structure.side.proportion" value="0.28531855" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-09-cache\src\main\resources" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-09-cache\src\main\java\com\jiangjiawei" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-08-actuator\src\main\resources" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-06-swagger\src\main\java\com\jiangjiawei" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-06-swagger\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiangjiawei.domain" />
+      <recent name="com.jiangjiawei.controller" />
+      <recent name="com.jiangjiawei.filter" />
+      <recent name="com.jiangjiawei.listenner" />
+      <recent name="com.jiangjiawei.mapper2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-06-error-exception\src\main\resources\templates\" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-06-error-exception\src\main\resources\templates\error" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-06-error-exception\src\main\resources\public\error" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-04-orm-mybatis\src\main\resources\mybatis" />
+      <recent name="D:\ideaprojects\Spring-Boot-Demo\spring-boot-03-template\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBoot09CacheApplication">
+    <configuration name="GuestValidTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangjiawei.GuestValidTest" />
+      <module name="spring-boot-06-error-exception" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JasyptUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiangjiawei.util.JasyptUtil" />
+      <module name="spring-boot-02-configuration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="spring-boot-07-Groovy-CLI" />
+      <setting name="path" value="file://$PROJECT_DIR$/spring-boot-07-Groovy-CLI/src/Hello.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/spring-boot-07-Groovy-CLI/src" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="spring-boot-07-Groovy-CLI" />
+      <setting name="path" value="file://$PROJECT_DIR$/spring-boot-07-Groovy-CLI/src/Hello.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/spring-boot-07-Groovy-CLI/src" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="02-Configuration" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="spring-boot-02-configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="03-Template" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-03-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventListenerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-05-event-listener" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.EventListenerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrmJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-orm-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.OrmJpaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrmMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-orm-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.OrmMybatisApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrmMybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-orm-mybatis-plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.OrmMybatisPlusApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot05WarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-05-war" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.SpringBoot05WarApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot05WebContainerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-05-web-container" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.WebContainerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06ErrorExceptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-error-exception" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.ErrorExceptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06LoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-logging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.LoggingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-servlet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.ServletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot06SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-06-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.SwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot08ActuatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-08-actuator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.ActuatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot09CacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-09-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.CacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThymeleefCrud" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-03-thymeleef-crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.ThymeleefCrudApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-03-web-restful-" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiangjiawei.WebRestful" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JasyptUtil" />
+      <item itemvalue="Application.GuestValidTest" />
+      <item itemvalue="Groovy.Hello" />
+      <item itemvalue="Groovy.Hello (1)" />
+      <item itemvalue="Spring Boot.01-HelloWorld" />
+      <item itemvalue="Spring Boot.03-Template" />
+      <item itemvalue="Spring Boot.ThymeleefCrud" />
+      <item itemvalue="Spring Boot.WebRestfulApplication" />
+      <item itemvalue="Spring Boot.OrmJpaApplication" />
+      <item itemvalue="Spring Boot.OrmMybatisApplication" />
+      <item itemvalue="Spring Boot.OrmMybatisPlusApplication" />
+      <item itemvalue="Spring Boot.EventListenerApplication" />
+      <item itemvalue="Spring Boot.SpringBoot05WebContainerApplication" />
+      <item itemvalue="Spring Boot.SpringBoot05WarApplication" />
+      <item itemvalue="Spring Boot.SpringBoot06ServletApplication" />
+      <item itemvalue="Spring Boot.SpringBoot06ErrorExceptionApplication" />
+      <item itemvalue="Spring Boot.SpringBoot06LoggingApplication" />
+      <item itemvalue="Spring Boot.SpringBoot06SwaggerApplication" />
+      <item itemvalue="Spring Boot.SpringBoot08ActuatorApplication" />
+      <item itemvalue="Spring Boot.SpringBoot09CacheApplication" />
+      <item itemvalue="Spring Boot.02-Configuration" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Groovy.Hello (1)" />
+        <item itemvalue="Groovy.Hello" />
+        <item itemvalue="Application.GuestValidTest" />
+        <item itemvalue="Spring Boot.02-Configuration" />
+        <item itemvalue="Application.JasyptUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.15628415" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.yml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/ideaprojects/Spring-Boot-Demo/spring-boot-03-web-restful" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/ideaprojects/Spring-Boot-Demo/spring-boot-03-thymeleef-crud" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:D:/ideaprojects/Spring-Boot-Demo/spring-boot-03-thymeleef-crud" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring-Boot-Demo第一次项目构建。" />
+    <MESSAGE value="Spring-Boot-Demo第一个HelloWorld项目完成。" />
+    <MESSAGE value="将上一次的项目进行一些更改，添加了一个helloworld的入门小项目。" />
+    <MESSAGE value="SpringBoot第九次课结束。" />
+    <MESSAGE value="SpringBoot整合模板引擎FreeMarker和Thymeleef,以及一些小的练习测试。" />
+    <MESSAGE value="20200806完成了thymeleef的demo案例。" />
+    <MESSAGE value="20200807将昨天的thymeleef的demo案例的接口风格改为了restful的接口风格，使之更加简洁易懂。" />
+    <MESSAGE value="20200807在SpringBoot中进行了Jpa的整合。" />
+    <MESSAGE value="20200807在SpringBoot整合Mybatis的两种方式。&#10;1.使用xml文件的方式&#10;2.使用注解的方式" />
+    <MESSAGE value="20200808,Mybatis整合之tk.mybatis插件。" />
+    <MESSAGE value="20200808,Mybatis整合之mybatis-plus插件。" />
+    <MESSAGE value="20200808,Mybatis进行多数据源整合。" />
+    <MESSAGE value="20200808,Mybatis事务初试。" />
+    <MESSAGE value="20200808,SpringBoot事件监听机制。" />
+    <MESSAGE value="20200808,SpringBoot的嵌入式WEB容器。" />
+    <MESSAGE value="20200808,SpringBoot中集成Hibernate Validator进行数据校验（使用PostMan模拟发送请求）。" />
+    <MESSAGE value="SpringBoot中使用过滤器&amp;拦截器。" />
+    <MESSAGE value="在SpringBoot中指派错误页第四种不同方式以及各自的优先级。" />
+    <MESSAGE value="在SpringBoot中使用日志。" />
+    <MESSAGE value="使用Swagger自动生成项目文档。" />
+    <MESSAGE value="未来的编码方式，Groovy&amp;SpringBoot，快速创建一个最简单项目。" />
+    <MESSAGE value="对项目运行的监控，以及保证监控的安全性。" />
+    <option name="LAST_COMMIT_MESSAGE" value="对项目运行的监控，以及保证监控的安全性。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="175" key="#Hello" timestamp="1597628725660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="175" key="#Hello/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597628725660" />
+    <state x="452" y="91" key="#Project_Structure" timestamp="1597658418330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="91" key="#Project_Structure/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597658418330" />
+    <state x="414" y="164" width="1361" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597628644213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="164" width="1361" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597628644213" />
+    <state x="414" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596958395459" />
+    <state x="721" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1597741941236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597741941236" />
+    <state x="721" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596959044100" />
+    <state x="761" y="258" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596590272937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="258" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596590272937" />
+    <state x="775" y="398" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1596590254639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="398" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596590254639" />
+    <state x="480" y="428" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596590327950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="480" y="428" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596590327950" />
+    <state x="524" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597736927865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597736927865" />
+    <state x="524" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596958387665" />
+    <state x="816" y="150" width="754" height="739" key="#xdebugger.evaluate" timestamp="1597023713687">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="150" width="754" height="739" key="#xdebugger.evaluate/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597023713687" />
+    <state x="336" y="8" width="1175" height="1032" key="CommitChangelistDialog2" timestamp="1597674335389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="8" width="1175" height="1032" key="CommitChangelistDialog2/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597674335389" />
+    <state x="197" y="80" key="DiffContextDialog" timestamp="1596587938907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="197" y="80" key="DiffContextDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596587938907" />
+    <state x="690" y="214" key="FileChooserDialogImpl" timestamp="1598000644775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-875" y="426" key="FileChooserDialogImpl/0.0.1920.1040/-1366.310.1366.728@-1366.310.1366.728" timestamp="1596891810136" />
+    <state x="690" y="214" key="FileChooserDialogImpl/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1598000644775" />
+    <state x="690" y="166" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596946028871" />
+    <state x="452" y="91" key="GrepConsoleSettings" timestamp="1596780507773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="91" key="GrepConsoleSettings/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596780507773" />
+    <state width="1830" height="356" key="GridCell.Tab.0.bottom" timestamp="1597800938516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938516" />
+    <state width="1830" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.0.center" timestamp="1597800938516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938516" />
+    <state width="1830" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.0.left" timestamp="1597800938516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938516" />
+    <state width="1830" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.0.right" timestamp="1597800938516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938516" />
+    <state width="1830" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.1.bottom" timestamp="1597800938517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938517" />
+    <state width="1830" height="374" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.1.center" timestamp="1597800938517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.1.center/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938517" />
+    <state width="1830" height="374" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.1.left" timestamp="1597800938516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.1.left/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938516" />
+    <state width="1830" height="374" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="356" key="GridCell.Tab.1.right" timestamp="1597800938517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="356" key="GridCell.Tab.1.right/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597800938517" />
+    <state width="1830" height="374" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596961170308" />
+    <state width="1830" height="309" key="GridCell.Tab.2.bottom" timestamp="1597025932234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="309" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597025932234" />
+    <state width="1830" height="309" key="GridCell.Tab.2.center" timestamp="1597025932234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="309" key="GridCell.Tab.2.center/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597025932234" />
+    <state width="1830" height="309" key="GridCell.Tab.2.left" timestamp="1597025932234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="309" key="GridCell.Tab.2.left/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597025932234" />
+    <state width="1830" height="309" key="GridCell.Tab.2.right" timestamp="1597025932234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1830" height="309" key="GridCell.Tab.2.right/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597025932234" />
+    <state x="455" y="192" key="IDE.errors.dialog" timestamp="1596852303079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="455" y="192" key="IDE.errors.dialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596852303079" />
+    <state x="377" y="89" key="Maven.ArtifactSearchDialog" timestamp="1596586699451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="377" y="89" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596586699451" />
+    <state x="482" y="107" key="Registry" timestamp="1596678480275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="482" y="107" key="Registry/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596678480275" />
+    <state x="560" y="158" key="RollbackChangesDialog" timestamp="1596762859409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="158" key="RollbackChangesDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596762859409" />
+    <state x="412" y="33" width="1355" height="883" key="SettingsEditor" timestamp="1597636555118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="412" y="33" width="1355" height="883" key="SettingsEditor/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597636555118" />
+    <state x="690" y="138" width="581" height="655" key="SpringBootCustomization" timestamp="1596675461180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="138" width="581" height="655" key="SpringBootCustomization/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596675461180" />
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1597674339400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597674339400" />
+    <state x="577" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1598000635270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1598000635270" />
+    <state x="688" y="167" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597460115174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="167" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597460115174" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1596765321436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596765321436" />
+    <state x="690" y="276" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1596687755168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="276" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596687755168" />
+    <state x="283" y="65" width="1489" height="881" key="new project wizard" timestamp="1597995896841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="302" y="144" key="new project wizard/0.0.1920.1040/-1366.310.1366.728@-1366.310.1366.728" timestamp="1596585775013" />
+    <state x="283" y="65" width="1489" height="881" key="new project wizard/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597995896841" />
+    <state x="236" y="57" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596958163663" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1597044767406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597044767406" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1597042803278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1597042803278" />
+    <state x="489" y="126" key="spring file set editor" timestamp="1596610043452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="126" key="spring file set editor/0.0.1920.1040/-1366.310.1366.728@0.0.1920.1040" timestamp="1596610043452" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.8.RELEASE/spring-boot-autoconfigure-2.1.8.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.class</url>
+          <line>135</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

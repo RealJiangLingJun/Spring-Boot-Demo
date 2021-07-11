@@ -8,3 +8,4 @@ server:
 ##      前缀代表文件位置
 #      suffix: .ftl
 ##      后缀代表文件类型
+debug: true
